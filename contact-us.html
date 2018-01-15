@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css" src="/css/custom.css"></style>
+	<title>Some Title</title>    
+</head>
+<body>
+<p>Menu</p>
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/page" class="pg-link">Page</a></li>
+    <li><a href="/contact-us">Contact Us</a></li>
+</ul>
+<div id="content">
+	Contact Us content...
+</div>
+<div id="footer">
+	<select class="lang-switcher" id="lang-switcher" style="display: none;">
+        <option value="en_UK">English (UK)</option>
+        <option value="es_ES">Español</option>
+    </select>
+	
+    <div>&copy; Copyright by FrameworkJet</div>
+</div>
+
+
+
+<script type="text/javascript" src="/js/lib/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/lib/handlebars-4.0.11.min.js"></script>
+<script type="text/javascript" src="/js/lib/router.js"></script>
+<script type="text/javascript" src="/js/lib/dataManager.js"></script>
+<!-- <script type="text/javascript" src="/js/lib.min.js"></script> -->
+
+
+
+<script type="text/javascript" src="/js/controllers/homeController.js"></script>
+<script type="text/javascript" src="/js/controllers/pageController.js"></script>
+
+<script type="text/javascript" src="/js/templates.js"></script>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/routes.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+
+<script type="text/javascript" src="/js/translations/en_UK.js"></script>
+<script type="text/javascript" src="/js/translations/es_ES.js"></script>
+<!-- <script type="text/javascript" src="/js/custom.min.js"></script> -->
+
+</body>
+</html>
